@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SaadMangalgatti/React-TextFormatter/precache-manifest.e8efe1a4931ab905e498bf58eacd647f.js"
+  "/React-TextFormatter/precache-manifest.bbcbc97e4e4b9d152a1e8296d14835a3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/SaadMangalgatti/React-TextFormatter/index.html", {
+workbox.routing.registerNavigationRoute("/React-TextFormatter/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

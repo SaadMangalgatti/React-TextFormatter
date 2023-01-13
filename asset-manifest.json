@@ -1,15 +1,15 @@
 {
-  "main.css": "/SaadMangalgatti/React-TextFormatter/static/css/main.13285f7e.chunk.css",
-  "main.js": "/SaadMangalgatti/React-TextFormatter/static/js/main.84a84f8a.chunk.js",
-  "main.js.map": "/SaadMangalgatti/React-TextFormatter/static/js/main.84a84f8a.chunk.js.map",
-  "static/js/1.3c11774c.chunk.js": "/SaadMangalgatti/React-TextFormatter/static/js/1.3c11774c.chunk.js",
-  "static/js/1.3c11774c.chunk.js.map": "/SaadMangalgatti/React-TextFormatter/static/js/1.3c11774c.chunk.js.map",
-  "static/js/2.cddc92c4.chunk.js": "/SaadMangalgatti/React-TextFormatter/static/js/2.cddc92c4.chunk.js",
-  "static/js/2.cddc92c4.chunk.js.map": "/SaadMangalgatti/React-TextFormatter/static/js/2.cddc92c4.chunk.js.map",
-  "runtime~main.js": "/SaadMangalgatti/React-TextFormatter/static/js/runtime~main.f9656d16.js",
-  "runtime~main.js.map": "/SaadMangalgatti/React-TextFormatter/static/js/runtime~main.f9656d16.js.map",
-  "static/css/main.13285f7e.chunk.css.map": "/SaadMangalgatti/React-TextFormatter/static/css/main.13285f7e.chunk.css.map",
-  "index.html": "/SaadMangalgatti/React-TextFormatter/index.html",
-  "precache-manifest.e8efe1a4931ab905e498bf58eacd647f.js": "/SaadMangalgatti/React-TextFormatter/precache-manifest.e8efe1a4931ab905e498bf58eacd647f.js",
-  "service-worker.js": "/SaadMangalgatti/React-TextFormatter/service-worker.js"
+  "main.css": "/React-TextFormatter/static/css/main.13285f7e.chunk.css",
+  "main.js": "/React-TextFormatter/static/js/main.84a84f8a.chunk.js",
+  "main.js.map": "/React-TextFormatter/static/js/main.84a84f8a.chunk.js.map",
+  "static/js/1.3c11774c.chunk.js": "/React-TextFormatter/static/js/1.3c11774c.chunk.js",
+  "static/js/1.3c11774c.chunk.js.map": "/React-TextFormatter/static/js/1.3c11774c.chunk.js.map",
+  "static/js/2.cddc92c4.chunk.js": "/React-TextFormatter/static/js/2.cddc92c4.chunk.js",
+  "static/js/2.cddc92c4.chunk.js.map": "/React-TextFormatter/static/js/2.cddc92c4.chunk.js.map",
+  "runtime~main.js": "/React-TextFormatter/static/js/runtime~main.1cab32e1.js",
+  "runtime~main.js.map": "/React-TextFormatter/static/js/runtime~main.1cab32e1.js.map",
+  "static/css/main.13285f7e.chunk.css.map": "/React-TextFormatter/static/css/main.13285f7e.chunk.css.map",
+  "index.html": "/React-TextFormatter/index.html",
+  "precache-manifest.bbcbc97e4e4b9d152a1e8296d14835a3.js": "/React-TextFormatter/precache-manifest.bbcbc97e4e4b9d152a1e8296d14835a3.js",
+  "service-worker.js": "/React-TextFormatter/service-worker.js"
 }
