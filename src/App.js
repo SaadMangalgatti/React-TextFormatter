@@ -1,11 +1,10 @@
 import "./App.css";
-// import Navbar from "./components/Navbar";
+import React from "react";
 import TextForm from "./components/TextForm";
 
 function App() {
   return (
     <>
-      {/* <Navbar title="Text Formatter" /> */}
       <TextForm heading="Enter The Text Below To Analyze " />
     </>
   );
