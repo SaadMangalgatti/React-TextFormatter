@@ -20,6 +20,10 @@ export default function TextForm(props) {
     let newText = "";
     setText(newText);
   };
+  const handlextraspace = () => {
+    let newText = text.split(/[  ]+/);
+    setText(newText.join(" "));
+  };
 
   const TitleCase = () => {
     let newText = text
@@ -29,6 +33,12 @@ export default function TextForm(props) {
     setText(newText);
   };
 
+  const handlecopytext = () => {
+    var text = document.getElementById("myBox");
+    text.select();
+    navigator.clipboard.writeText(text.value);
+  };
+
   return (
     <div className="container my-5">
       <div className="row">
@@ -36,13 +46,13 @@ export default function TextForm(props) {
           <h3>{props.heading}</h3>
           <textarea
             className="form-control mb-2"
-            id="exampleFormControlTextarea1"
+            id="myBox"
             rows="4"
             value={text}
             onChange={handleOnChange}
           ></textarea>
           <div className="row">
-            <div className="col-sm-3 d-grid gap-2">
+            <div className="col-sm-2 d-grid gap-2">
               <button
                 className="btn btn-secondary mt-1"
                 onClick={handleUpClick}
@@ -50,7 +60,7 @@ export default function TextForm(props) {
                 To Uppercase
               </button>
             </div>
-            <div className="col-sm-3 d-grid gap-2">
+            <div className="col-sm-2 d-grid gap-2">
               <button
                 className="btn btn-secondary mt-1"
                 onClick={handleLowerClick}
@@ -59,18 +69,36 @@ export default function TextForm(props) {
               </button>
             </div>
 
-            <div className="col-sm-3 d-grid gap-2">
+            <div className="col-sm-2 d-grid gap-2">
               <button className="btn btn-secondary mt-1" onClick={TitleCase}>
                 To Capatilize
               </button>
             </div>
 
-            <div className="col-sm-3 d-grid gap-2">
+            <div className="col-sm-2 d-grid gap-2">
               <button
                 className="btn btn-secondary mt-1"
                 onClick={handlecleartext}
               >
                 Clear Text
+              </button>
+            </div>
+
+            <div className="col-sm-2 d-grid gap-2">
+              <button
+                className="btn btn-secondary mt-1"
+                onClick={handlecopytext}
+              >
+                Copy To Clipboard
+              </button>
+            </div>
+
+            <div className="col-sm-2 d-grid gap-2">
+              <button
+                className="btn btn-secondary mt-1"
+                onClick={handlextraspace}
+              >
+                Remove Extra Space
               </button>
             </div>
           </div>

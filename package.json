@@ -2,6 +2,8 @@
   "name": "React-TextFormatter",
   "homepage": "https://saadmangalgatti.github.io/React-TextFormatter/",
   "version": "0.1.0",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
